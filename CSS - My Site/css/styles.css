@@ -20,11 +20,17 @@ h1 {
   position: absolute;
   left: 400px;
 }
+
 .top-cloud {
   position: absolute;
   right: 400px;
   top: 50px;
 }
+
+.python-img {
+  width: 100px
+}
+
 /* Colors:
 #E4F9F5
 #30E3CA
