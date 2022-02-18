@@ -59,6 +59,10 @@ h2 {
   width: 256px
 }
 
+.skill-row {
+  width: 50%;
+}
+
 /* Colors:
 #65C18C
 #C1F4C5
