@@ -6,12 +6,19 @@ body {
 
 h1 {
   margin-top: 0;
+  margin-bottom: 0;
   padding-top: 100px;
   font-family: 'Pacifico', cursive;
+  font-size: 5em;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2em;
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #C1F4C5;
   margin-left: 0;
   margin-right: 0;
   position: relative;
@@ -27,7 +34,7 @@ h1 {
 .land {
   height: 15vh;
   width: 100%;
-  background: #739C69;
+  background: #65C18C;
   position: absolute;
   bottom: 0;
 }
@@ -52,8 +59,8 @@ h1 {
 }
 
 /* Colors:
-#E4F9F5
-#30E3CA
-#11999E
-#40514E
+#65C18C
+#C1F4C5
+#FFBED8
+#FF7BA9
 */
