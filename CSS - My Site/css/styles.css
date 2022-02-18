@@ -1,3 +1,8 @@
+/*
+* {
+  outline: 1px solid #FFBED8;
+}
+*/
 body {
   margin: 0;
   text-align: center;
@@ -55,14 +60,36 @@ h2 {
   height: 256px;
 }
 
-.python-img {
-  width: 256px
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.knitting-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px
 }
 
 .skill-row {
   width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.middle-container{
+  margin: 25px auto;
+}
+.bottom-container {
+  background-color: white;
 }
 
+.copyright{
+  margin: 0 auto;
+  padding: 16px 0;
+
+}
 /* Colors:
 #65C18C
 #C1F4C5
