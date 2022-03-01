@@ -1,3 +1,12 @@
+:root{
+    --color-primary-400: hsl(31, 77%, 52%);
+    --color-primary-700: hsl(184, 100%, 22%);
+    --color-primary-900: hsl(179, 100%, 13%);
+
+    --color-neutral-100: hsla(0, 0%, 100%, 0.75);
+    --color-neutral-200: hsl(0, 0%, 95%);
+}
+
 .attribution {
   position: absolute;
   font-size: 11px;
@@ -20,3 +29,8 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+
+.sedan{
+    background-color: var(--color-primary-400);
+}
+
