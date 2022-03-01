@@ -10,6 +10,11 @@
     --font-neutral-700: 'Big Shoulders Display', sans-serif;
 }
 
+body{
+  font-size: 15px;
+  line-height: 1.25;
+}
+
 .attribution {
   position: absolute;
   font-size: 11px;
@@ -31,4 +36,23 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.col{
+  color: var(--color-neutral-200);
+  padding: 5%
+}
+
+.col p{
+  color: var(--color-neutral-100);
+}
+
+.sedan{
+  background-color: var(--color-primary-400);
+}
+.suv{
+  background-color: var(--color-primary-700);
+}
+.luxury{
+  background-color: var(--color-primary-900);
 }
