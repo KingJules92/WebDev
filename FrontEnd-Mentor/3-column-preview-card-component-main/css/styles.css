@@ -29,8 +29,3 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
-
-.sedan{
-    background-color: var(--color-primary-400);
-}
-
