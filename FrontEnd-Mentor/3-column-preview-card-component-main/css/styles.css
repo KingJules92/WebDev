@@ -27,6 +27,12 @@ body{
   color: hsl(228, 45%, 44%);
 }
 
+.btn{
+  position: relative;
+  bottom: -25%;
+  color: #fff;
+}
+
 .container {
   position: relative;
 }
