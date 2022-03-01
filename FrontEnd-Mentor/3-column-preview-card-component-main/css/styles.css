@@ -5,6 +5,9 @@
 
     --color-neutral-100: hsla(0, 0%, 100%, 0.75);
     --color-neutral-200: hsl(0, 0%, 95%);
+
+    --font-neutral-400: 'Lexend Deca', sans-serif;
+    --font-neutral-700: 'Big Shoulders Display', sans-serif;
 }
 
 .attribution {
