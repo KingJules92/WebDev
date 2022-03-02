@@ -1,103 +1,53 @@
-:root {
-	--color-primary-400: hsl(31, 77%, 52%);
-	--color-primary-700: hsl(184, 100%, 22%);
-	--color-primary-900: hsl(179, 100%, 13%);
-
-	--color-neutral-100: hsla(0, 0%, 100%, 0.75);
-	--color-neutral-200: hsl(0, 0%, 95%);
-
-	--font-neutral-400: 'Lexend Deca', sans-serif;
-	--font-neutral-700: 'Big Shoulders Display', sans-serif;
-}
-
-body {
-	font-size: 15px;
-}
-
-p {
-	color: var(--color-neutral-100);
-	padding-top: 5%;
-	font-family: var(--font-neutral-400);
-}
-
-
-h1 {
-	font-family: var(--font-neutral-700);
-	line-height: 1.5;
-	margin-top: 25px;
-}
-.attribution {
+.grid-container {
 	position: absolute;
-	font-size: 11px;
-	text-align: center;
-	bottom: 5%;
-	left: 50%;
-	transform: translateX(-50%);
-}
-.attribution a {
-	color: hsl(228, 45%, 44%);
-}
-
-.btn {
-	width: 50%;
-	text-align: center;
-	background-color: var(--color-neutral-200);
-	position: relative;
-	bottom: -25%;
-	border: 3px solid var(--color-neutral-200);
-	border-radius: 25px;
-	font-family: var(--font-neutral-400);
-	font-weight: 700;
-}
-
-.sedan .btn {
-	color: var(--color-primary-400);
-}
-.suv .btn {
-	color: var(--color-primary-700);
-}
-.luxury .btn {
-	color: var(--color-primary-900);
-}
-
-.btn:hover {
-	border: 2px solid --color-neutral-200;
-	background-color: transparent;
-	color: var(--color-neutral-200);
-}
-
-
-.container {
-	position: relative;
-}
-
-.row {
-	position: absolute;
+	display: grid;
+	grid-template-columns: repeat(3, 25vw);
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
 }
 
-.col-lg-4 {
-	color: var(--color-neutral-200);
-	padding: 5%;
+.content {
+	padding: 20%;
+	height: 25rem;
+	color: hsla(0, 0%, 100%, 0.75);
 }
-
-.sedan {
-	background-color: var(--color-primary-400);
+.content h1 {
+	color: hsl(0, 0%, 95%);
+	margin: 25% 0;
+}
+.item-a {
+	background-color: hsl(31, 77%, 52%);
 	border-radius: 25px 0 0 25px;
 }
-.suv {
-	background-color: var(--color-primary-700);
+
+.item-b {
+	background-color: hsl(184, 100%, 22%);
 }
-.luxury {
-	background-color: var(--color-primary-900);
+
+.item-c {
+	background-color: hsl(179, 100%, 13%);
 	border-radius: 0 25px 25px 0;
 }
 
-@media(max-width:991px){
-  .sedan{
-    border-radius: 25px 25px 0 0;
+.attribution {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.btn {
+	background-color: hsl(0, 0%, 95%);
+	text-decoration: none;
+	position: relative;
+	bottom: -25%;
+	border-radius: 25px;
+	padding: 7%;
+}
+
+@media (max-width: 1440px) {
+  .item-b{
+    background-color: red;
   }
-  .luxury{border-radius: 0 0 25px 25px;}
-}  
+}
