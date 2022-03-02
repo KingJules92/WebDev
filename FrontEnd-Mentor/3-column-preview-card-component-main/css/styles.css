@@ -1,10 +1,7 @@
-.grid-container {
-	position: absolute;
-	display: grid;
-	grid-template-columns: repeat(3, 25vw);
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
+/* Mobile Layout */
+
+.grid-container{
+	margin: 1.5em;
 }
 
 .content {
@@ -18,7 +15,7 @@
 }
 .item-a {
 	background-color: hsl(31, 77%, 52%);
-	border-radius: 25px 0 0 25px;
+	border-radius: 25px 25px 0 0;
 }
 
 .item-b {
@@ -27,15 +24,9 @@
 
 .item-c {
 	background-color: hsl(179, 100%, 13%);
-	border-radius: 0 25px 25px 0;
+	border-radius: 0 0 25px 25px
 }
 
-.attribution {
-	position: absolute;
-	bottom: 5%;
-	left: 50%;
-	transform: translateX(-50%);
-}
 
 .btn {
 	background-color: hsl(0, 0%, 95%);
@@ -46,8 +37,29 @@
 	padding: 7%;
 }
 
-@media (min-width: 1440px) {
-  .item-b{
-    background-color: red;
-  }
+/* Desktop Layout */
+
+@media (min-width: 376px) {
+	.grid-container {
+		position: absolute;
+		display: grid;
+		grid-template-columns: repeat(3, 25vw);
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+	.attribution {
+		position: absolute;
+		bottom: 5%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
+	.item-a{
+		border-radius: 25px 0 0 25px;
+	}
+
+	.item-c{
+		border-radius: 0 25px 25px 0;
+	}
 }
