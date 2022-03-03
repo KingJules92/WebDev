@@ -1,6 +1,8 @@
 /* Mobile Layout */
-
-.grid-container{
+.footer{
+	text-align: center;
+}
+.grid-container {
 	margin: 1.5em;
 }
 
@@ -24,22 +26,21 @@
 
 .item-c {
 	background-color: hsl(179, 100%, 13%);
-	border-radius: 0 0 25px 25px
+	border-radius: 0 0 25px 25px;
 }
-
 
 .btn {
 	background-color: hsl(0, 0%, 95%);
+	border-radius: 25px;
+	padding: 1em;
 	text-decoration: none;
 	position: relative;
-	bottom: -25%;
-	border-radius: 25px;
-	padding: 7%;
+	bottom: -15%;
 }
 
 /* Desktop Layout */
 
-@media (min-width: 376px) {
+@media (min-width: 800px) {
 	.grid-container {
 		position: absolute;
 		display: grid;
@@ -54,12 +55,14 @@
 		left: 50%;
 		transform: translateX(-50%);
 	}
-	
-	.item-a{
+
+	.btn {
+	}
+	.item-a {
 		border-radius: 25px 0 0 25px;
 	}
 
-	.item-c{
+	.item-c {
 		border-radius: 0 25px 25px 0;
 	}
 }
