@@ -1,4 +1,16 @@
 /* Mobile Layout */
+html{
+	font-size: 15px;
+}
+
+h1{
+	font-family: 'Big Shoulders Display';
+	font-weight: 700;
+}
+p{
+	font-family: 'Lexend Deca';
+}
+
 .footer{
 	text-align: center;
 }
@@ -30,12 +42,19 @@
 }
 
 .btn {
+
 	background-color: hsl(0, 0%, 95%);
 	border-radius: 25px;
-	padding: 1em;
+	padding: 1em 3em;
 	text-decoration: none;
+	text-align: center;
 	position: relative;
 	bottom: -15%;
+	font-family: 'Lexend Deca';
+}
+
+.item-a .btn{
+	color:hsl(31, 77%, 52%)
 }
 
 /* Desktop Layout */
@@ -56,8 +75,6 @@
 		transform: translateX(-50%);
 	}
 
-	.btn {
-	}
 	.item-a {
 		border-radius: 25px 0 0 25px;
 	}
